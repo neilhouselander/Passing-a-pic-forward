@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1EEDF541AAE2D6300CCE801 /* NHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EEDF531AAE2D6300CCE801 /* NHDetailViewController.m */; };
 		C1F416D41AA71D4500653666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F416D31AA71D4500653666 /* main.m */; };
 		C1F416D71AA71D4500653666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F416D61AA71D4500653666 /* AppDelegate.m */; };
-		C1F416DA1AA71D4500653666 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F416D91AA71D4500653666 /* ViewController.m */; };
 		C1F416DD1AA71D4500653666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F416DB1AA71D4500653666 /* Main.storyboard */; };
 		C1F416DF1AA71D4500653666 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F416DE1AA71D4500653666 /* Images.xcassets */; };
 		C1F416E21AA71D4500653666 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F416E01AA71D4500653666 /* LaunchScreen.xib */; };
 		C1F416EE1AA71D4500653666 /* Passing_A_Picture_Forward__User_Data_Challenge_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F416ED1AA71D4500653666 /* Passing_A_Picture_Forward__User_Data_Challenge_Tests.m */; };
+		C1F416FB1AA71DCE00653666 /* NHUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F416FA1AA71DCE00653666 /* NHUserData.m */; };
+		C1F417001AA71EAF00653666 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C1F416FC1AA71EAF00653666 /* person1.jpeg */; };
+		C1F417011AA71EAF00653666 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C1F416FD1AA71EAF00653666 /* person2.jpeg */; };
+		C1F417021AA71EAF00653666 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1F416FE1AA71EAF00653666 /* person3.jpg */; };
+		C1F417031AA71EAF00653666 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C1F416FF1AA71EAF00653666 /* person4.jpeg */; };
+		C1F417061AA737D700653666 /* NHMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F417051AA737D700653666 /* NHMainTableViewController.m */; };
+		C1F417091AA73A9B00653666 /* NHPersonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F417081AA73A9B00653666 /* NHPersonObject.m */; };
+		C1F4170C1AA743F100653666 /* NHPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F4170B1AA743F100653666 /* NHPictureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1EEDF521AAE2D6300CCE801 /* NHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDetailViewController.h; sourceTree = "<group>"; };
+		C1EEDF531AAE2D6300CCE801 /* NHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDetailViewController.m; sourceTree = "<group>"; };
 		C1F416CE1AA71D4500653666 /* Passing A Picture Forward (User Data Challenge).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passing A Picture Forward (User Data Challenge).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F416D21AA71D4500653666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1F416D31AA71D4500653666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1F416D51AA71D4500653666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1F416D61AA71D4500653666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1F416D81AA71D4500653666 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1F416D91AA71D4500653666 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C1F416DC1AA71D4500653666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1F416DE1AA71D4500653666 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C1F416E11AA71D4500653666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C1F416E71AA71D4500653666 /* Passing A Picture Forward (User Data Challenge)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing A Picture Forward (User Data Challenge)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F416EC1AA71D4500653666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1F416ED1AA71D4500653666 /* Passing_A_Picture_Forward__User_Data_Challenge_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_A_Picture_Forward__User_Data_Challenge_Tests.m; sourceTree = "<group>"; };
+		C1F416F91AA71DCE00653666 /* NHUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUserData.h; sourceTree = "<group>"; };
+		C1F416FA1AA71DCE00653666 /* NHUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUserData.m; sourceTree = "<group>"; };
+		C1F416FC1AA71EAF00653666 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		C1F416FD1AA71EAF00653666 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		C1F416FE1AA71EAF00653666 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		C1F416FF1AA71EAF00653666 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		C1F417041AA737D700653666 /* NHMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMainTableViewController.h; sourceTree = "<group>"; };
+		C1F417051AA737D700653666 /* NHMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMainTableViewController.m; sourceTree = "<group>"; };
+		C1F417071AA73A9B00653666 /* NHPersonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHPersonObject.h; path = "Passing A Picture Forward (User Data Challenge)/NHPersonObject.h"; sourceTree = "<group>"; };
+		C1F417081AA73A9B00653666 /* NHPersonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHPersonObject.m; path = "Passing A Picture Forward (User Data Challenge)/NHPersonObject.m"; sourceTree = "<group>"; };
+		C1F4170A1AA743F100653666 /* NHPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPictureViewController.h; sourceTree = "<group>"; };
+		C1F4170B1AA743F100653666 /* NHPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPictureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +101,11 @@
 		C1F416D01AA71D4500653666 /* Passing A Picture Forward (User Data Challenge) */ = {
 			isa = PBXGroup;
 			children = (
+				C1F416DB1AA71D4500653666 /* Main.storyboard */,
 				C1F416D51AA71D4500653666 /* AppDelegate.h */,
 				C1F416D61AA71D4500653666 /* AppDelegate.m */,
-				C1F416D81AA71D4500653666 /* ViewController.h */,
-				C1F416D91AA71D4500653666 /* ViewController.m */,
-				C1F416DB1AA71D4500653666 /* Main.storyboard */,
-				C1F416DE1AA71D4500653666 /* Images.xcassets */,
-				C1F416E01AA71D4500653666 /* LaunchScreen.xib */,
+				C1F416F81AA71D6800653666 /* Views */,
+				C1F416F71AA71D5300653666 /* Model */,
 				C1F416D11AA71D4500653666 /* Supporting Files */,
 			);
 			path = "Passing A Picture Forward (User Data Challenge)";
@@ -96,6 +114,12 @@
 		C1F416D11AA71D4500653666 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1F416FC1AA71EAF00653666 /* person1.jpeg */,
+				C1F416FD1AA71EAF00653666 /* person2.jpeg */,
+				C1F416FE1AA71EAF00653666 /* person3.jpg */,
+				C1F416FF1AA71EAF00653666 /* person4.jpeg */,
+				C1F416DE1AA71D4500653666 /* Images.xcassets */,
+				C1F416E01AA71D4500653666 /* LaunchScreen.xib */,
 				C1F416D21AA71D4500653666 /* Info.plist */,
 				C1F416D31AA71D4500653666 /* main.m */,
 			);
@@ -117,6 +141,31 @@
 				C1F416EC1AA71D4500653666 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1F416F71AA71D5300653666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1F417071AA73A9B00653666 /* NHPersonObject.h */,
+				C1F417081AA73A9B00653666 /* NHPersonObject.m */,
+				C1F416F91AA71DCE00653666 /* NHUserData.h */,
+				C1F416FA1AA71DCE00653666 /* NHUserData.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C1F416F81AA71D6800653666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1F417041AA737D700653666 /* NHMainTableViewController.h */,
+				C1F417051AA737D700653666 /* NHMainTableViewController.m */,
+				C1F4170A1AA743F100653666 /* NHPictureViewController.h */,
+				C1F4170B1AA743F100653666 /* NHPictureViewController.m */,
+				C1EEDF521AAE2D6300CCE801 /* NHDetailViewController.h */,
+				C1EEDF531AAE2D6300CCE801 /* NHDetailViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F417021AA71EAF00653666 /* person3.jpg in Resources */,
+				C1F417001AA71EAF00653666 /* person1.jpeg in Resources */,
 				C1F416DD1AA71D4500653666 /* Main.storyboard in Resources */,
 				C1F416E21AA71D4500653666 /* LaunchScreen.xib in Resources */,
+				C1F417031AA71EAF00653666 /* person4.jpeg in Resources */,
 				C1F416DF1AA71D4500653666 /* Images.xcassets in Resources */,
+				C1F417011AA71EAF00653666 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F416DA1AA71D4500653666 /* ViewController.m in Sources */,
+				C1F417061AA737D700653666 /* NHMainTableViewController.m in Sources */,
 				C1F416D71AA71D4500653666 /* AppDelegate.m in Sources */,
+				C1EEDF541AAE2D6300CCE801 /* NHDetailViewController.m in Sources */,
+				C1F416FB1AA71DCE00653666 /* NHUserData.m in Sources */,
+				C1F417091AA73A9B00653666 /* NHPersonObject.m in Sources */,
 				C1F416D41AA71D4500653666 /* main.m in Sources */,
+				C1F4170C1AA743F100653666 /* NHPictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +469,7 @@
 				C1F416F31AA71D4500653666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1F416F41AA71D4500653666 /* Build configuration list for PBXNativeTarget "Passing A Picture Forward (User Data Challenge)Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +478,7 @@
 				C1F416F61AA71D4500653666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

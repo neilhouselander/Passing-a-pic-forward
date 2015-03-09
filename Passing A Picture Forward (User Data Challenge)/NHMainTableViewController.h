@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NHMainTableViewController.h
 //  Passing A Picture Forward (User Data Challenge)
 //
 //  Created by Neil Houselander on 04/03/2015.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NHMainTableViewController : UITableViewController
 
+@property (strong, nonatomic) NSMutableArray *usersArray;
 
 @end
-
